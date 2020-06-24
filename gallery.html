@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="gallery.css" rel="stylesheet" />
+    <link href="assets/swiper.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="assets/swiper.min.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+    <title>以諾科技</title>
+</head>
+<body>
+    <!-- menu start -->
+    <div class="wrapper">
+        <header id="header" class="scoll-hide">
+            <nav>
+                <a class="logo" href="index.html"><img class="logoimg" src="images/17404.jpg" /></a>
+                <ul>
+                    <li><a href="index.html">主頁面</a></li>
+                    <li><a class="active">About</a></li>
+                    <li><a href="product.html">商品</a></li>
+                    <li><a href="#">聯絡我們</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- menu finish -->
+        <section class="sec1"></section>
+        <section class="content">
+            <div class="container">
+                <div class="image-gallery">
+                    <a href="images/keyboard.jpg" class="img-1">
+                        <i class="icon ion-md-expand"></i>
+                    </a>
+                    <a href="images/Einstein.jpg" class="img-2">
+                        <i class="icon ion-md-expand"></i>
+                    </a>
+                    <a href="images/thumbnail.jpg" class="img-3">
+                        <i class="icon ion-md-expand"></i>
+                    </a>
+                    <a href="images/flight3.jpg" class="img-4">
+                        <i class="icon ion-md-expand"></i>
+                    </a>
+                    <a href="images/technology.jpg" class="img-5">
+                        <i class="icon ion-md-expand"></i>
+                    </a>
+                    <a href="images/usb2.jpg" class="img-6">
+                        <i class="icon ion-md-expand"></i>
+                    </a>
+                    <a href="images/usb3.jpg" class="img-7">
+                        <i class="icon ion-md-expand"></i>
+                    </a>
+                    <a href="images/flight4.jpg" class="img-8">
+                        <i class="icon ion-md-expand"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="content_end">
+            <div>
+                <h2>©2010 enoch Inc.</h2>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
